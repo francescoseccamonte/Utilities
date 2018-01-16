@@ -1,0 +1,12 @@
+Example
+txt
+file
+for
+sed.
+Insert
+above
+insert
+note
+that Insert
+is different from
+insert
