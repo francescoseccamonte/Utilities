@@ -1,0 +1,70 @@
+# MATLAB files
+*.mat
+*.forces
+*.mexa64
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# core dump
+core
+!core/
+
+# executables under bin/
+bin/
+*/bin/*
+
+# python
+*.pyc
+*.pyo
+
+# latex
+*.synctex.gz
+*.out
+*.log
+*.bbl
+*.blg
+*.aux
+*.fdb_latexmk
+*.fls
+
+# valgrind
+callgrind.out.*
+
+# editors
+
+## eclipse
+.project
+.cproject
+.settings
+
+## eclipse-pydev
+.pydevproject
+
+## gedit
+*~
+
+## kdevelop
+*.kdev4
+.metadata
+
+## qtcreator
+*.qmlproject.user
+
+## clion
+.idea/
+
+## vim
+*.swp
+
+## ctags for sublime-text
+.tags
+.tags_sorted_by_file
+
+.vagrant
