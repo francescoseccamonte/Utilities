@@ -1,8 +1,8 @@
 // Test lambda functions and std::transform
 
-#include<iostream>
-#include<vector>
-#include<algorithm>
+#include<iostream>	// std::cout
+#include<vector>	// std::vector
+#include<algorithm>	// std::transform
 
 int main()
 {
@@ -27,7 +27,8 @@ int main()
 	std::transform(	vec.begin(),
 					vec.end(),
 					vec.begin(),
-					[=](int x) -> int {return x+a;});	// -> specifies the return type
+					[a](int x) -> int {return x+a;});	// a captures only a by copy
+														// -> specifies the return type
 
 	std::vector<int> vec1(size);
 
